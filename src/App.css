@@ -1,34 +1,61 @@
 @font-face {
-  font-family:Lobster ;
+  font-family: Lobster;
   src: url(./assests/fonts/Lobster-Regular.ttf);
 }
+
 @font-face {
-  font-family:SofiaSansExtraCondensed ;
+  font-family: SofiaSansExtraCondensed;
   src: url(./assests/fonts/Sofia_Sans_Extra_Condensed_2/SofiaSansExtraCondensed-VariableFont_wght.ttf);
 }
-.main{
+
+.main {
   display: flex;
   flex-wrap: wrap;
 }
-.main .card{
+
+.main .card {
   width: 33.333%;
 }
-.main .card img{
+
+.main .card img {
   width: 300px;
 }
+
 img {
   width: 200px;
   height: 300px;
   object-fit: cover;
 }
-h1{
-  font-family:Lobster ;
+
+h1 {
+  font-family: SofiaSansExtraCondensed;
+  font-size: 80px;
 }
+
 .ant-card-meta-title {
   font-size: 22px !important;
-  font-family:SofiaSansExtraCondensed ;
+  font-family: SofiaSansExtraCondensed;
 }
+
 .ant-card-meta-description {
   font-size: 30px !IMPORTANT;
   font-family: 'SofiaSansExtraCondensed';
+}
+
+.App {
+  background: #ecf0f191;
+}
+
+.bestMovies {
+  border-left: 4px solid #f1c40f;
+}
+
+.bestMovie-tag span {
+  top: 267px;
+  background: #f1c40f;
+  padding: 5px;
+  position: absolute;
+  font-weight: bold;
+  font-family: monospace;
+  left: -1px;
 }

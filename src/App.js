@@ -14,8 +14,9 @@ function App() {
       {
         MovieData.map((data,i)=>{
            return(
-            <div className="col-md-3">
-              <MovieCards Title={data.Title} Poster={data.Poster} Year = {data.Year}/>
+            <div className="col-lg-3 col-md-4 col-md-4 col-sm-6 col-xs-6" key={i}>
+              <MovieCards Title={data.Title} Poster={data.Poster} Year = {data.Year} feature={data.feature} />
+              
             </div>
            )
         })
