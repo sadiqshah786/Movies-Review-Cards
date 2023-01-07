@@ -1,4 +1,5 @@
 # Movie Reviews Cards
+## Props Example
 
 Movie Demo Card: [Movie Demo Cards ](https://movie-reviews-cards.netlify.app/)
 
