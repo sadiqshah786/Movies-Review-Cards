@@ -1,0 +1,34 @@
+@font-face {
+  font-family:Lobster ;
+  src: url(./assests/fonts/Lobster-Regular.ttf);
+}
+@font-face {
+  font-family:SofiaSansExtraCondensed ;
+  src: url(./assests/fonts/Sofia_Sans_Extra_Condensed_2/SofiaSansExtraCondensed-VariableFont_wght.ttf);
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .card{
+  width: 33.333%;
+}
+.main .card img{
+  width: 300px;
+}
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+h1{
+  font-family:Lobster ;
+}
+.ant-card-meta-title {
+  font-size: 22px !important;
+  font-family:SofiaSansExtraCondensed ;
+}
+.ant-card-meta-description {
+  font-size: 30px !IMPORTANT;
+  font-family: 'SofiaSansExtraCondensed';
+}
